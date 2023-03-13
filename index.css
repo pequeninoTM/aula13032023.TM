@@ -1,10 +1,14 @@
 table {
     font-size: 1cm;
-    border-color: rgb(75, 0, 75);
-    background-color: lightpink;
 }
 
-tr {
-    border-color: rgb(75, 0, 75);
+tr:nth-child(even) {
+    background-color: lightgrey;
 }
 
+body {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
